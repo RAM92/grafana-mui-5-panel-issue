@@ -4,6 +4,8 @@ import { SimpleOptions } from 'types';
 import { css, cx } from 'emotion';
 import { stylesFactory, useTheme } from '@grafana/ui';
 
+import Button from '@mui/material/Button';
+
 interface Props extends PanelProps<SimpleOptions> {}
 
 export const SimplePanel: React.FC<Props> = ({ options, data, width, height }) => {
@@ -43,6 +45,7 @@ export const SimplePanel: React.FC<Props> = ({ options, data, width, height }) =
           </div>
         )}
         <div>Text option value: {options.text}</div>
+        <Button>Click me!</Button>
       </div>
     </div>
   );
