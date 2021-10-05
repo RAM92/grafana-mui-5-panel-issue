@@ -1,3 +1,14 @@
+# Beeks mui-5 panel issue
+
+This repo demonstrates a bug...
+
+- The panel in this repo includes a reference to the `Button` component in MUI-5.
+- When installed to an instance of grafana, the panel fails to load.
+- Changing it to use Material-UI 4 - the old version - fixes the issue.
+- The plugin also works fine if the `Button` is completely removed
+
+---
+
 # Grafana Panel Plugin Template
 
 [![Build](https://github.com/grafana/grafana-starter-panel/workflows/CI/badge.svg)](https://github.com/grafana/grafana-starter-panel/actions?query=workflow%3A%22CI%22)
