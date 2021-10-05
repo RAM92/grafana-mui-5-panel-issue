@@ -2,9 +2,9 @@
 
 This repo demonstrates a bug...
 
-- The panel in this repo includes a reference to the `Button` component in MUI-5.
+- The panel in this repo includes a reference to the `Button` component in MUI-5 - see SimplePanel.tsx
 - When installed to an instance of grafana, the panel fails to load.
-- Changing it to use Material-UI 4 - the old version - fixes the issue.
+- Changing it to use Material-UI 4 - the old version - fixes the issue. To do this, change `@mui/material` to `@material-ui/core`
 - The plugin also works fine if the `Button` is completely removed
 
 ---
